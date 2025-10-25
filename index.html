@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Herbert Wamulika — Portfolio</title>
+  <style>
+    :root{--accent:#2f8f4a;--muted:#666}
+    body{font-family:Inter,system-ui,Segoe UI,Arial;background:#f7f7f8;color:#222;margin:0}
+    header{background:white;padding:28px 18px;border-bottom:1px solid #e6e6e6;display:flex;align-items:center;gap:16px}
+    .avatar{width:72px;height:72px;border-radius:8px;background:linear-gradient(135deg,#e6ffe9,#dff3e6);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    main{max-width:980px;margin:28px auto;padding:0 18px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .card{background:white;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.03);border:1px solid #f0f0f0}
+    .services li{margin:10px 0}
+    .contact a{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:white;text-decoration:none}
+    footer{text-align:center;color:var(--muted);margin:36px 0}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="avatar">HW</div>
+    <div>
+      <h1>Herbert Wamulika</h1>
+      <p class="lead">Computer Science student • Web design • Programming • Networks</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <section>
+        <div class="card">
+          <h2>About Me</h2>
+          <p>I'm a Computer Science student at Kampala International University. I build simple, responsive websites, help with document formatting, and support programming and networking tasks. 
+            I deliver work fast and communicate clearly.</p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Services</h2>
+          <ul class="services">
+            <li><strong>Website Design</strong> — 1–6 page responsive sites (HTML/CSS or WordPress)</li>
+            <li><strong>Document Formatting</strong> — Reports, proposals, CVs (MS Word / PDF)</li>
+            <li><strong>Programming Help</strong> — Python, Java, C++ (small projects & fixes)</li>
+            <li><strong>Computer Networks</strong> — LAN setup, troubleshooting, basic config</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Sample Work</h2>
+          <p> Example: </p>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3>Contact</h3>
+          <p class="contact">
+            Email: <strong>your.herbertwamulika7@gmail.com.com</strong><br>
+            WhatsApp: <strong>+256774841260</strong><br>
+            Fiverr: <a href="https://www.fiverr.com" target="_blank">my Fiverr profile</a>
+          </p>
+          <p style="margin-top:12px"><a class="contact" href="mailto:herbertwamulika7@gmail.com">Email Me</a></p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Education</h3>
+          <p>Kampala International University<br>B.Sc. Computer Science (in progress)</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © Herbert Wamulika — Computer Science Student • Kampala International University
+    </footer>
+  </main>
+</body>
+</html>
