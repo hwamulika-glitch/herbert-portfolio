@@ -16,7 +16,44 @@
     .card{background:white;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.03);border:1px solid #f0f0f0}
     .services li{margin:10px 0}
     .contact a{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:white;text-decoration:none}
+/* 🩵 Fixed Contact Section - Brighter and Clearer */
+.contact {
+  background: rgba(255, 255, 255, 0.9); /* slightly stronger white */
+  border-radius: 16px;
+  padding: 35px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
 
+/* Contact title */
+.contact h2 {
+  color: #0a0a0a; /* deep gray for visibility */
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+}
+
+/* Buttons (Email, Call, LinkedIn, GitHub) */
+.contact a {
+  display: inline-block;
+  margin: 12px;
+  padding: 14px 24px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  background: linear-gradient(135deg, #007bff, #0056b3); /* strong blue for clarity */
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact a:hover {
+  background: linear-gradient(135deg, #006ae6, #004b99);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
     footer{text-align:center;color:var(--muted);margin:36px 0}
     @media (max-width:880px){.grid{grid-template-columns:1fr}}
   </style>
